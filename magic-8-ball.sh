@@ -24,3 +24,6 @@ RANDOM_INDEX=$(( RANDOM % NUM_ANSWERS ))
 
 # Display the answer
 echo " ${ANSWERS[$RANDOM_INDEX]}"
+echo "--- The Magic 8-Ball ---"
+read -p "Ask the 8-Ball a question and press Enter: "
+echo "Shaking the 8-Ball..."
